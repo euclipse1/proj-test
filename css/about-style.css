@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.whole{
+    width:100vw;
+    height: 100vh; 
+}
+
+.header{
+    background-color: black;
+    width: 99.7vw;
+    height: 10vh;
+    text-align:center;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px white solid;
+    
+}
+
+.header a{
+
+    color: white;
+    background-color: gray;
+    border-radius: 20px;
+    float: right;
+    padding: 1vh;
+    text-decoration: none;
+    margin-right: 2vw;
+    border-radius: 200px;
+    margin-top: 2vh;
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+.header h1{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Subrayada', sans-serif;
+
+    color: white;
+    float: left;
+    letter-spacing: 1vh;
+    margin-left: 2vw;
+    margin-top: 2vh;
+}
+
+.header a:hover {
+    background-color: rgb(42, 42, 42);
+    transform: scale(1.2);
+    transition: transform .5s;
+  }
+
+.body{
+    width: 80vw;
+    height: 80vh;
+    text-align: center;
+}
+
+.body img{
+    width: 100vw;
+    height: 80vh;
+}
+
+.text-box p{
+    color: gray;
+    width: 25vw;
+    height: 35vh;
+    background-color: #5b5b5d;
+    margin-top: 16vh;
+    margin-left: -30vw;
+    position: absolute;
+    border-radius: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-box2 p{
+    color: gray;
+    width: 25vw;
+    height: 35vh;
+    background-color: #5b5b5d;
+    margin-top: 16vh;
+    position: absolute;
+    border-radius: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-box3 p{
+    color: gray;
+    width: 25vw;
+    height: 35vh;
+    background-color: #5b5b5d;
+    margin-top: 16vh;
+    margin-left: 30vw;
+    position: absolute;
+    border-radius: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.profile{
+    margin-left: 7vw;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: -55vh;
+    width: 90vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 300px) );
+    column-gap: 11vw;
+}
+
+.profile img{
+    width: 15vw;
+    height: 30vh;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 400px;
+    border: 1vw #5b5b5d solid;
+}
+
+#pfp2{
+    margin-left: -.5vw;
+}
+
+#pfp3{
+    margin-left:-1vw;
+}
+
+.mem-info{
+    margin-left: 6.2vw;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: -22vh;
+    width: 90vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 300px) );
+    column-gap: 11vw;
+}
+
+.mem-info h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mem-info h4{
+    font-family: 'Amaranth', sans-serif;
+}
+
+#drea{
+    width: 20vw;
+    background: white;
+    padding-left: 2vh;
+    padding-bottom: 1vh;
+    margin-left: -3vh;
+    text-align: center;
+}
+
+#drea h2{
+    margin-top: vh;
+}
+
+#kash{
+    width: 20vw;
+    background: white;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    padding-top: .5vh;
+    padding-bottom: .5vh;
+    margin-left: -2.5vw;
+    text-align: center;
+}
+
+#yanna{
+    width: 20vw;
+    background: white;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    padding-top: .5vh;
+    padding-bottom: 2vh;
+    margin-left: -2.9vw;
+    text-align: center;
+}
+
+#yanna h2{
+    margin-top: 2vh;
+}
+
+.logo img{
+    width: 25vw;
+    height: 50vh;
+    border-radius: 400px;
+    margin-left: -55vw;
+    margin-top: -23vh;
+}
+
+.footer{
+    background-color: #000000;
+    height: 10vh;
+    width: 99.7vw;
+    border: 2px white solid;
+    position: fixed;
+    
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+    float: right;
+    margin-top: 1vw;
+}
+
+.footer-text h3{
+    color: white;
+    float: right;
+    margin-top: 4vh;
+}
+
+.footer-text span{
+    margin-right: 4vh;
+}
+
+.footer img{
+    width: 3vw;
+    height: 6vh;
+    float: right;
+    border-radius: 300px;
+    margin-right: 2vw;
+    margin-bottom: 1.5vh;
+    margin-left: 1vw;
+
+}
